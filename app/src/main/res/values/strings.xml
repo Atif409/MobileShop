@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MobileShop</string>
+    <string name="login">Login</string>
+    <string name="email">Enter Your Email</string>
+    <string name="password">Enter Your Password</string>
+    <string name="register">Create Your Account</string>
+    <string name="click_to_login">click to login</string>
+    <string name="click_to_register">click to register</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_all_records">Delete All Records</string>
+    <string name="select_company">Select Company</string>
+
+    <string-array name="mobile_companies">
+        <item>Company</item>
+        <item>Android</item>
+        <item>iPhone</item>
+    </string-array>
+</resources>

@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#3498db" /> <!-- Replace with your desired button color -->
+    <corners android:radius="16dp" /> <!-- Set the desired border radius here -->
+</shape>

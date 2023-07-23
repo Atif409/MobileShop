@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:padding="15dp"
+    android:background="@color/lavender"
+    >
+
+    <LinearLayout
+        android:id="@+id/textLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Shop"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Management System"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/textLayout"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:text="Add Records"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_border" />
+
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/btn_add"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:text="View Records"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_border" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/btn_view"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:text="Update Records"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_border" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/btn_update"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:text="Delete Records"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_border" />
+
+</RelativeLayout>

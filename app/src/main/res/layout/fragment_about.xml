@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:padding="16dp"
+    >
+
+    <!-- Project Title -->
+    <TextView
+        android:id="@+id/textViewProjectTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Title:\n Mobile Shop Management System"
+        android:textSize="20sp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/lavender" />
+
+    <!-- Project Type -->
+    <TextView
+        android:id="@+id/textViewProjectType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Type: Semester Project"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewProjectTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/lavender" />
+
+    <!-- Group Members -->
+    <TextView
+        android:id="@+id/textViewGroupMembers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Group Members:\n\nMuhammad Atif\nMuhammad Khalil\nMuhammad Ikram"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewProjectType"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/lavender" />
+
+    <!-- Submitted To -->
+    <TextView
+        android:id="@+id/textViewSubmittedTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submitted To: Muhammad Ahsan"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewGroupMembers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/lavender" />
+
+    <!-- Project Modules -->
+    <TextView
+        android:id="@+id/textViewProjectModules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Project Modules: A simple CRUD operation"
+        android:textSize="16sp"
+        android:layout_below="@id/textViewSubmittedTo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/lavender" />
+
+</RelativeLayout>

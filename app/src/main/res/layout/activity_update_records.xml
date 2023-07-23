@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateRecords"
+    android:padding="15dp"
+    android:background="@color/lavender"
+    >
+
+    <EditText
+        android:id="@+id/editTextIdCard"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="ID Card"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_border"
+        android:layout_marginTop="12dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:text="Search"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_border" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_border"
+        android:layout_marginTop="12dp"
+        android:padding="12dp" />
+
+    <Spinner
+        android:id="@+id/spinnerMobileCompany"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_border"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spinnerMobileModel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_border"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/editTextPrice"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Price"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_border"
+        android:layout_marginTop="12dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnUpdateRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Update Record"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="10sp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_border" />
+</LinearLayout>
